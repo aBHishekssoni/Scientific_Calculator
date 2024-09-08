@@ -10,7 +10,7 @@ sealed class CalculatorOperation(val symbol: String){
     object Divide: CalculatorOperation("/")
     object Logic: CalculatorOperation("1/x")
     object SquareRoot: CalculatorOperation("√")
-    object Square: CalculatorOperation("x²")
+    object Square: CalculatorOperation("²")
     object Sin: CalculatorOperation("sin")
     object Cos: CalculatorOperation("cos")
     object Tan: CalculatorOperation("tan")

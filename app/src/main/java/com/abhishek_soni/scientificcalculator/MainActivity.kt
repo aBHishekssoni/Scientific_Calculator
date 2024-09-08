@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     Calculator(state = state, onAction = viewModel::onAction,
                         buttonSpacing = buttonSpacing,
                         modifier = Modifier
-                            .background(Color.LightGray)
+                            .background(Color.DarkGray)
                             .fillMaxSize()
                             .padding(16.dp))
 
